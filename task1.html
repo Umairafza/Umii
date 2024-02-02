@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task1.css" />
+    <title>Form | Faraz Maqsood Lab 1</title>
+  </head>
+  <body>
+    <form action="dummy.php" method="post" class="form">
+      <h1 class="heading">Contact Us</h1>
+      <div class="name-field field">
+        <label for="">Your Name</label>
+        <input type="text" placeholder="Your Name" required />
+      </div>
+      <div class="email-field field">
+        <label for="">Your Email</label>
+        <input type="email" placeholder="your@gmail.com" required />
+      </div>
+      <div class="phone-field field">
+        <label for="">Your Phone Number</label>
+        <input type="tel" placeholder="+02454982" required />
+      </div>
+      <div class="message-field field">
+        <label for="">Your Message</label>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="5"
+          placeholder="Message..."
+        ></textarea>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="submitbtn">Submit</button>
+        <button type="reset" class="resetbtn">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>

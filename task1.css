@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eee;
+}
+html {
+  font-size: 62.5%;
+}
+
+.form {
+  padding: 2rem;
+  max-width: 40rem;
+  height: 55rem;
+  background-color: white;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.heading {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-top: 3rem;
+}
+.field label {
+  margin-top: 1rem;
+  display: block;
+  font-size: 2rem;
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+.field input {
+  width: 100%;
+  font-size: 1.6rem;
+  height: 3.2rem;
+}
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.buttons button {
+  background-color: #4caf50;
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 0rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  width: 100%;
+}
+.buttons button:hover {
+  filter: brightness(90%);
+}
+.message-field textarea {
+  width: 100%;
+}
